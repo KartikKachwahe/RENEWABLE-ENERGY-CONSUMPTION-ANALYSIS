@@ -1,44 +1,8 @@
 # Renewable Energy Consumption Analysis
 
 ---
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-Programming-blue?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-EDA-0099CC?style=for-the-badge)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=for-the-badge&logo=github)
-
-</p>
-
-<p align="center">
 <b>A data analysis project that explores global renewable energy consumption trends to uncover patterns across countries, energy sources, and time periods.</b>
 </p>
-
----
-
-# Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Business Problem](#-business-problem)
-- [Project Objectives](#-project-objectives)
-- [Dataset Information](#-dataset-information)
-- [Tech Stack](#-tech-stack)
-- [Project Workflow](#-project-workflow)
-- [Data Preprocessing](#-data-preprocessing)
-- [Exploratory Data Analysis](#-exploratory-data-analysis)
-- [Key Insights](#-key-insights)
-- [Visualizations](#-visualizations)
-- [How To Run](#-how-to-run)
-- [Repository Structure](#-repository-structure)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Future Enhancements](#-future-enhancements)
-- [Business Impact](#-business-impact)
-- [Conclusion](#-conclusion)
-- [Author](#-author)
 
 ---
 
@@ -48,13 +12,6 @@ The shift toward renewable energy is one of the most important global trends in 
 
 This project analyzes global renewable energy consumption data to identify trends, compare countries and regions, and understand the growth of different renewable energy sources over time.
 
-The project combines:
-
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Trend and comparative analysis
-- Data visualization
-- Insight generation
 
 The analysis helps:
 
@@ -105,8 +62,8 @@ Key questions addressed:
 
 | Metric | Value |
 |----------|--------|
-| Total Records | *(update with actual row count)* |
-| Total Features | *(update with actual feature count)* |
+| Total Records | 1001 |
+| Total Features | 12 |
 | Time Period Covered | *(e.g., 2000–2023)* |
 | Data Type | Structured Time-Series Data |
 
@@ -124,63 +81,6 @@ Key questions addressed:
 | Renewable Share (%) | Percentage of total energy from renewable sources |
 | Population / GDP | Optional socio-economic indicators (if available) |
 
-*(Update the feature list above to match the exact columns in your dataset.)*
-
----
-
-#  Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Programming |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Operations |
-| Matplotlib | Data Visualization |
-| Seaborn | Exploratory Data Analysis |
-| Jupyter Notebook | Analysis Environment |
-| Git/GitHub | Version Control |
-
----
-
-#  Project Workflow
-
-```text
-Raw Dataset (.CSV)
-          │
-          ▼
-Data Cleaning & Preprocessing
-          │
-          ▼
-Exploratory Data Analysis
-          │
-          ▼
-Trend & Comparative Analysis
-          │
-          ▼
-Data Visualization
-          │
-          ▼
-Insight Generation
-          │
-          ▼
-Final Report / Notebook
-```
-
----
-
-#  Data Preprocessing
-
-Data preprocessing was performed before analysis.
-
-### Tasks Performed
-
-- Imported dataset
-- Checked and handled missing values
-- Removed duplicates
-- Standardized country names and units
-- Filtered relevant years/columns
-- Data type conversions (e.g., year, numeric fields)
-
 ---
 
 #  Exploratory Data Analysis
@@ -197,8 +97,6 @@ Exploratory analysis was conducted to understand renewable energy trends and rel
 
 ### Key Observations
 
-*(Update with your actual findings, e.g.:)*
-
 - Global renewable energy consumption has shown consistent year-over-year growth
 - Solar and wind energy are among the fastest-growing sources
 - A small group of countries account for a large share of total renewable consumption
@@ -208,95 +106,10 @@ Exploratory analysis was conducted to understand renewable energy trends and rel
 
 #  Key Insights
 
-*(Replace with the actual insights from your notebook, e.g.:)*
-
 - Certain countries have significantly outpaced others in renewable adoption
 - The share of renewables in total energy mix has steadily risen over the analyzed period
 - Some energy sources show accelerating growth in the most recent years
 - Regional disparities remain in renewable energy transition
-
----
-
-#  Visualizations
-
-- Line charts showing consumption trends over time
-- Bar charts comparing countries/regions
-- Pie/stacked charts showing energy source contribution
-- Heatmaps for correlation analysis
-- Choropleth/geographic visualizations (if applicable)
-
----
-
-#  How To Run
-
-### Clone Repository
-
-```bash
-git clone https://github.com/KartikKachwahe/RENEWABLE-ENERGY-CONSUMPTION-ANALYSIS.git
-```
-
-### Move into Project Directory
-
-```bash
-cd RENEWABLE-ENERGY-CONSUMPTION-ANALYSIS
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the Notebook
-
-```bash
-jupyter notebook Renewable-Energy-Consumption-Analysis.ipynb
-```
-
----
-
-#  Repository Structure
-
-```text
-RENEWABLE-ENERGY-CONSUMPTION-ANALYSIS
-│
-├── Renewable-Energy-Consumption-Analysis.ipynb
-├── renewable_energy_data.csv
-├── images/
-│   └── charts and visualizations
-├── README.md
-```
-
-*(Update file names above to match your actual repository contents.)*
-
----
-
-#  Skills Demonstrated
-
-### Python
-
-- Data Cleaning
-- Data Manipulation
-- Time-Series Analysis
-
-### Data Analysis
-
-- Exploratory Data Analysis (EDA)
-- Trend Analysis
-- Comparative Analysis
-- Data Visualization
-
-### Domain Knowledge
-
-- Renewable Energy Metrics
-- Sustainability Analytics
-- Energy Policy Data Interpretation
-
-### Tools
-
-- Jupyter Notebook
-- Git Version Control
-- GitHub Portfolio Management
 
 ---
 
@@ -330,13 +143,6 @@ Potential benefits:
 
 This project demonstrates how data analysis can be used to understand global renewable energy consumption trends and support the broader conversation around sustainable energy transition.
 
-The project covers a complete end-to-end analysis workflow:
-
-- Data preprocessing
-- Exploratory Data Analysis
-- Trend and comparative analysis
-- Visualization
-- Insight generation
 
 Understanding these patterns can help governments, businesses, and researchers make more informed decisions in the transition toward renewable energy.
 
